@@ -37,8 +37,10 @@ function App() {
               min={1}
               max={50}
               value={length}
+              
               onChange={(e) => setLength(parseInt(e.target.value))}
             />
+            <label>Length:{length}</label>
           </label>
         </div>
         <div className="mb-6">
